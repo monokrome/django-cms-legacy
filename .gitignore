@@ -1,0 +1,15 @@
+# Ignore files created by virtualenv
+lib/
+include/
+bin/*
+distribute*.tar.gz
+
+!bin/fix-permissions # Fixes permission issues on our system
+!bin/*.wsgi # Script that will be used to actually run the web site
+!bin/*.conf # Initial wsgi project environment configuration
+
+# Ignore all hidden files, except for git-specific files
+.*
+!.gitignore
+!.gitmodules
+
