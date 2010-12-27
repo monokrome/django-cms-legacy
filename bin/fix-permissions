@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Where is our project's base directory?
+project_directory=$(readlink -f "$(dirname "$0")/..")
+project_groupname=`basename ${project_directory}`
+
+chmod -R 660 ${project_directory}
+chown -R :${project_groupname} ${project_directory}
+
+find ${project_directory} -type d -exec chmod u+x,g+xs {} \;
+find "${project_directory}/bin" -type f -exec chmod +x {} \;
+
