@@ -22,3 +22,5 @@ distribute*.tar.gz
 # Project-specific files
 conf/local.ini
 
+# Python cache files
+*.pyc
