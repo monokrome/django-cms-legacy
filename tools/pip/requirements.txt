@@ -4,4 +4,5 @@ git+http://github.com/monokrome/django-navigation.git
 git+http://github.com/monokrome/django-news.git
 git+http://github.com/monokrome/django-aliases.git
 git+http://github.com/monokrome/django-webbugger.git
+git+http://github.com/monokrome/django-themes.git
 
