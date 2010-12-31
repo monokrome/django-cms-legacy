@@ -10,6 +10,10 @@ distribute*.tar.gz
 # Ignore all logs
 *.log
 
+# Ignore all database files
+*.db
+*.sqlite
+
 # Ignore all hidden files, except for git-specific files
 .*
 !.gitignore
