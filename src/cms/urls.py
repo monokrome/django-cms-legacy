@@ -11,11 +11,11 @@ index_args = getattr(settings, 'INDEX_ARGS', {})
 urlpatterns = patterns('',
     url(r'^$', index_view, index_args, name='site-index'),
 
-    (r'^news/', include('news.urls')),
+    url(r'^news/', include('news.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
-    (r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', include(admin.site.urls)),
 )
 
