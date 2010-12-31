@@ -5,14 +5,10 @@ from django.conf.urls.defaults import *
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    # Example:
-    # (r'^cms/', include('cms.foo.urls')),
-
     (r'^news/', include('news.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
-    # Uncomment the next line to enable the admin:
-    # (r'^admin/', include(admin.site.urls)),
+    (r'^admin/', include(admin.site.urls)),
 )
