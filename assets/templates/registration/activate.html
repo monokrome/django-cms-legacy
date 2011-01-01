@@ -1,0 +1,15 @@
+{% extends "registration/base.html" %}
+{% load i18n %}
+
+{% block content %}
+<h1>{% trans "Activation" %}</h1>
+
+{% if account %}
+	<p>{% trans "Account successfully activated" %}</p>
+
+	<p><a href="{% url auth_login %}">{% trans "Log in" %}</a></p>
+{% else %}
+	<p>{% trans "Account activation failed" %}</p>
+{% endif %}
+
+{% endblock %}

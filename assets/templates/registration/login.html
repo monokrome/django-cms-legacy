@@ -1,0 +1,28 @@
+{% extends "registration/base.html" %}
+{% load i18n %}
+
+{% block content %}
+	<h1>{% trans "Login" %}</h1>
+
+	<form method="post" action="{{ request.path }}">
+	{% csrf_token %}
+	<ul>
+		<li>
+			<label for="id_username">{% trans "Username" %}</label>
+			{{ form.username }}
+		</li>
+		<li>
+			<label for="id_password">{% trans "Password" %}</label>
+			{{ form.password }}
+		</li>
+	</ul>
+
+	<p>
+		<input type="submit" value="{% trans 'Log in' %}" />
+		<input type="hidden" name="next" value="{{ next }}" />
+	</p>
+	</form>
+
+	<p>{% trans "Forgot your password" %}? <a href="{% url auth_password_reset %}">{% trans "Reset it" %}</a>!</p>
+	<p>{% trans "Not member" %}? <a href="{% url registration_register %}">{% trans "Register" %}</a>!</p>
+{% endblock %}
