@@ -1,0 +1,1 @@
+[{"pk": 1, "model": "navigation.navigationtree", "fields": {"name": "Primary", "access_name": "primary"}}, {"pk": 2, "model": "navigation.navigationtree", "fields": {"name": "Account", "access_name": "account"}}, {"pk": 3, "model": "navigation.navigationtree", "fields": {"name": "Footer", "access_name": "footer"}}]
