@@ -1,3 +1,6 @@
+textile
+markdown
+docutils
 git+http://github.com/django/django.git
 git+http://github.com/django-extensions/django-extensions.git
 git+http://github.com/monokrome/django-navigation.git
