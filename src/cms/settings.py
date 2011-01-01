@@ -123,6 +123,7 @@ INSTALLED_APPS = (
     'aliases',
     'news',
     'navigation',
+    'themes',
 )
 
 # A sample logging configuration. The only tangible logging
