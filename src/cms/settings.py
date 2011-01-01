@@ -151,3 +151,6 @@ FIXTURE_DIRS = (
     asset_path('fixtures'),
 )
 
+# Where should be be directed to after login?
+LOGIN_REDIRECT_URL = '/'
+
