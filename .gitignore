@@ -24,3 +24,7 @@ conf/local.ini
 
 # Python cache files
 *.pyc
+
+# Ignore static files deployed from django apps
+assets/media/static/
+
