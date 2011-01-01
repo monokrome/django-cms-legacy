@@ -115,6 +115,7 @@ INSTALLED_APPS = (
     'django.contrib.comments',
     'django.contrib.admin',
     'django.contrib.flatpages',
+    'django.contrib.markup',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'profiles',
