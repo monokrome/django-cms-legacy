@@ -154,3 +154,6 @@ FIXTURE_DIRS = (
 # Where should be be directed to after login?
 LOGIN_REDIRECT_URL = '/'
 
+# How many days should activation links work before expiring?
+ACCOUNT_ACTIVATION_DAYS = 3
+
