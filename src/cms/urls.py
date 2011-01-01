@@ -15,6 +15,8 @@ urlpatterns = patterns('',
     url(r'^account/', include('registration.urls')),
     url(r'^account/profile/', include('profiles.urls')),
 
+    url(r'^comments/', include('django.contrib.comments.urls')),
+
     # Uncomment the admin/doc line below to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
