@@ -142,3 +142,9 @@ LOGGING = {
         },
     }
 }
+
+# Directories where django will find additional fixtures
+FIXTURE_DIRS = (
+    asset_path('fixtures'),
+)
+
