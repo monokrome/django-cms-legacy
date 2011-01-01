@@ -12,6 +12,7 @@ urlpatterns = patterns('',
     url(r'^$', index_view, index_args, name='site-index'),
 
     url(r'^news/', include('news.urls')),
+    url(r'^account/', include('registration.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
