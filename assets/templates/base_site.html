@@ -3,3 +3,15 @@
 {% block title %}Django CMS{% endblock title %}
 {% block site-name %}Django CMS{% endblock site-name %}
 
+{% block styles %}
+	{{ block.super }}
+
+	{% for theme in theme_list %}
+		<link rel="stylesheet{% if theme != current_theme %} alternate{% endif %}" type="text/css" href="{{ MEDIA_URL }}{{ theme.styles_url }}/common.css">
+	{% endfor %}
+{% endblock styles %}
+
+{% block scripts %}
+	<script src="{{ MEDIA_URL }}{{ current_theme.scripts_url }}/application.js"></script>
+{% endblock scripts %}
+
