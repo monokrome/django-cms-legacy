@@ -112,8 +112,8 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.media',
     'django.core.context_processors.static',
     'django.contrib.messages.context_processors.messages',
-    'themes.context_processors.current',
-    'themes.context_processors.list',
+    'themes.context_processors.current_theme',
+    'themes.context_processors.theme_list',
 )
 
 INSTALLED_APPS = (
