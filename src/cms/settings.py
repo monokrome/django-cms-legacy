@@ -105,6 +105,17 @@ TEMPLATE_DIRS = (
     asset_path('templates'),
 )
 
+TEMPLATE_CONTEXT_PREPROCESSORS = (
+    'django.contrib.auth.context_processors.auth',
+    'django.core.context_processors.debug',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.media',
+    'django.core.context_processors.static',
+    'django.contrib.messages.context_processors.messages',
+    'themes.context_processors.current',
+    'themes.context_processors.list',
+)
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
