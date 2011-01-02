@@ -1,3 +1,4 @@
+werkzeug
 git+http://github.com/django/django.git
 git+http://github.com/django-extensions/django-extensions.git
 
