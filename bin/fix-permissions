@@ -10,3 +10,5 @@ chown -R :${project_groupname} ${project_directory}
 find ${project_directory} -type d -exec chmod u+x,g+xs {} \;
 find "${project_directory}/bin" -type f -exec chmod +x {} \;
 
+chmod +x ${project_directory}/src/*/manage.py
+
