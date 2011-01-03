@@ -18,6 +18,14 @@ h4 { font-size: 0.9em; }
 h5 { font-size: 0.8em; }
 h6 { font-size: 0.6em; }
 
+p { padding: 5px; margin-bottom: 10px; }
+ul li { list-style: inside disc; }
+
+ul
+{
+	margin-left: 1em;
+}
+
 nav ul li
 {
 	display: inline-block;
@@ -121,6 +129,7 @@ a:link, a:active, a:visited, a:hover
 	padding-left: 1em;
 	margin-bottom: 20px;
 	border-left: 3px solid #D6FF8B;
+	list-style: none;
 }
 
 .articles .article h3
