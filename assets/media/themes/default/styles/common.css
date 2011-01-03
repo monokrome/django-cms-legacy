@@ -41,7 +41,12 @@ nav ul li
 .column
 {
 	display: inline-block;
+
+	/** Browser independant (mostly) rounded corners: **/
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
+
 
 /**
  * 
@@ -133,11 +138,6 @@ a:link, a:active, a:visited, a:hover
 	background-color: #234F32;
 }
 
-ul.column
-{
-	display: inline-block;
-}
-
 #footer nav li a
 {
 	padding: 0px 5px;
@@ -146,4 +146,18 @@ ul.column
 }
 
 #footer_text { font-size: 0.8em; }
+
+#footer-columns .column
+{
+	background-color: #326364;
+	margin: 20px 20px;
+	width: 250px;
+	vertical-align: top;
+}
+
+#footer-columns .column ul
+{
+	margin-bottom: 20px;
+	text-align: left;
+}
 
