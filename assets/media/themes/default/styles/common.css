@@ -23,6 +23,9 @@ ul li { list-style: inside disc; }
 
 ul { margin-left: 1em; }
 
+em { font-style: italic; }
+strong { font-weight: bold; }
+
 nav ul { margin-left: 0px; }
 nav ul li { display: inline-block; }
 
