@@ -29,7 +29,12 @@ em { font-style: italic; }
 strong { font-weight: bold; }
 
 nav ul { margin-left: 0px; }
-nav ul li { display: inline-block; }
+nav ul li
+{
+	display: inline-block;
+	padding: 0px 10px;
+}
+
 
 /**
  * Generic classes
@@ -79,11 +84,6 @@ a:link, a:active, a:visited, a:hover
 {
 	margin-top: 10px;
 	font-size: 1.8em;
-}
-
-#primary-navigation nav ul li
-{
-	padding: 0px 10px;
 }
 
 #primary-navigation a
