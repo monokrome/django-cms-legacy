@@ -15,3 +15,37 @@
 	<script src="{{ MEDIA_URL }}{{ current_theme.scripts_url }}/application.js"></script>
 {% endblock scripts %}
 
+{% block footer-main %}
+<div id="footer-columns">
+	<div class="column">
+		<h3>Features</h3>
+
+		<ul>
+			<li>Community Tools</li>
+			<li>Dynamic Navigation</li>
+			<li>Powerful news & blogs</li>
+			<li>Simple page creation</li>
+			<li>Easy to extend</li>
+		</ul>
+	</div>
+
+	<div class="column">
+		<h3>Technologies</h3>
+
+		<ul>
+			<li><a href="http://python.org" title="Python Programming Language">Python</a></li>
+			<li><a href="http://djangoproject.org/" title="Django framework">Django</a></li>
+			<li>
+				<a href="http://daringfireball.net/projects/markdown/">MD</a>,
+				<a href="http://docutils.sourceforge.net/docs/user/rst/quickref.html">RST</a>,
+				etc.
+			</li>
+			<li>
+				<a href="http://en.wikipedia.org/wiki/RSS">RSS</a>,
+				<a href="http://atomenabled.org/">ATOM</a>
+			</li>
+		</ul>
+	</div>
+</div>
+{% endblock footer-main %}
+
