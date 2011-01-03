@@ -1,1 +1,17 @@
-[{"pk": 1, "model": "news.article", "fields": {"body": "This is a small django project that aims to allow developers *(and - someday - maybe average users)* to easily create a basic website and get to work on the more interest parts of web-based website/application development. Some key features that come *\"out-of-the-box\"* with this system are:\r\n\r\n* User accounts with Django's flexible user permission systems\r\n* Dynamically generated navigation system that uses permissions to decide who sees which menu items\r\n* News / blogging support (as you can see) which supports:\r\n    * Blog and news post with permission-based multi-user support\r\n    * Markup generation based on popular markup formats (Textile, RestructuredText, Markdown)\r\n    * Dynamic, automatic RSS / ATOM feed generation", "category": [], "title": "Django content manager", "author": 1, "summary": "", "created_on": "2011-01-02 18:49:28", "published": true, "markup_filter": 1, "slug": "django-content-manager"}}]
+[
+    {
+        "pk": 1, 
+        "model": "news.article", 
+        "fields": {
+            "body": "This is a small django project that aims to allow developers *(and - someday - maybe average users)* to easily create a basic website and get to work on the more interest parts of web-based website/application development. Some key features that come *\"out-of-the-box\"* with this system are:\r\n\r\n* User accounts with Django's flexible user permission systems\r\n* Dynamically generated navigation system that uses permissions to decide who sees which menu items\r\n* News / blogging support (as you can see) which supports:\r\n    * Blog and news post with permission-based multi-user support\r\n    * Markup generation based on popular markup formats (Textile, RestructuredText, Markdown)\r\n    * Dynamic, automatic RSS / ATOM feed generation", 
+            "category": [], 
+            "title": "Django content manager", 
+            "author": 1, 
+            "summary": "", 
+            "created_on": "2011-01-02 18:49:28", 
+            "published": true, 
+            "markup_filter": 1, 
+            "slug": "django-content-manager"
+        }
+    }
+]
