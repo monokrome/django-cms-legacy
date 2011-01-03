@@ -138,6 +138,16 @@ a:link, a:active, a:visited, a:hover
 	color: #999;
 }
 
+.articles .article .summary
+{
+	margin-bottom: 10px;
+}
+
+.articles .article h6
+{
+	text-align: right;
+}
+
 #footer
 {
 	padding: 5px;
