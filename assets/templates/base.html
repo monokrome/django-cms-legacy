@@ -20,15 +20,15 @@
 		<div id="page-wrapper">
 			<div id="header">
 				<h1 id="site-name">{% block site_name %}{% endblock site_name %}</h1>
-			</div>
 
-			<div id="navigation-wrapper">
-				<div id="account-navigation">
-					{% block account_navigation %}{% navtree "account" user %}{% endblock account_navigation %}
-				</div>
+				<div id="navigation-wrapper">
+					<div id="primary-navigation">
+						{% block primary_navigation %}{% navtree "primary" user %}{% endblock primary_navigation %}
+					</div>
 
-				<div id="primary-navigation">
-					{% block primary_navigation %}{% navtree "primary" user %}{% endblock primary_navigation %}
+					<div id="account-navigation">
+						{% block account_navigation %}{% navtree "account" user %}{% endblock account_navigation %}
+					</div>
 				</div>
 			</div>
 
