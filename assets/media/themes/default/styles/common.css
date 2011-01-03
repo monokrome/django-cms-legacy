@@ -35,11 +35,10 @@ nav ul li
 	padding: 0px 10px;
 }
 
-
 /**
  * Generic classes
  */
-ul.column
+.column
 {
 	display: inline-block;
 }
