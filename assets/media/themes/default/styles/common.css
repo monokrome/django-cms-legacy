@@ -120,39 +120,6 @@ a:link, a:active, a:visited, a:hover
 	text-align: center;
 }
 
-/**
- * News articles.
- */
-
-.articles .article
-{
-	padding-left: 1em;
-	margin-bottom: 20px;
-	border-left: 3px solid #D6FF8B;
-	list-style: none;
-}
-
-.articles .article h3
-{
-	font-size: 1.6em;
-}
-
-.articles .article h3 a:link, .articles .article h3 a:active,
-.articles .article h3 a:hover, .articles .article h3 a:hover
-{
-	color: #999;
-}
-
-.articles .article .summary
-{
-	margin-bottom: 10px;
-}
-
-.articles .article h6
-{
-	text-align: right;
-}
-
 #footer
 {
 	padding: 5px;
