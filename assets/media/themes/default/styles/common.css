@@ -1,1 +1,143 @@
+@import url('http://yui.yahooapis.com/2.8.2r1/build/reset/reset-min.css');
+
+/**
+ * Tag definitions.
+ */
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #092E20;
+	color: #FFF;
+}
+
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 0.9em; }
+h5 { font-size: 0.8em; }
+h6 { font-size: 0.6em; }
+
+nav ul li
+{
+	display: inline-block;
+}
+
+/**
+ * 
+ */
+#page-wrapper
+{
+	height: 100%;
+	min-height: auto !important;
+}
+
+#header
+{
+	margin: 0px 50px;
+	padding-left: 200px;
+	height: 111px;
+	background-image: url('../images/logo.png');
+	background-repeat: no-repeat;
+}
+
+a:link, a:active, a:visited, a:hover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+#navigation-wrapper
+{
+	margin-right: 20px;
+}
+
+#navigation-wrapper ul
+{
+	float: right;
+	clear: right;
+}
+
+#primary-navigation
+{
+	margin-top: 10px;
+	font-size: 1.8em;
+}
+
+#primary-navigation a
+{
+	font-weight: bold;
+}
+
+#account-navigation
+{
+	margin-right: 40px;
+}
+
+#site-name
+{
+	display: none;
+}
+
+#content-wrapper
+{
+	margin-bottom: 40px;
+	padding: 20px;
+	text-align: center;
+	background-color: #FFF;
+	color: #333;
+}
+
+#content
+{
+	text-align: left;
+	margin: 0px auto;
+	width: 540px;
+}
+
+#content a:link, #content a:active, #content a:visited, #content a:hover
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+#footer
+{
+	text-align: center;
+}
+
+/**
+ * News articles.
+ */
+
+.articles .article
+{
+	padding-left: 1em;
+	margin-bottom: 20px;
+	border-left: 3px solid #D6FF8B;
+}
+
+.articles .article h3
+{
+	font-size: 1.6em;
+}
+
+.articles .article h3 a:link, .articles .article h3 a:active,
+.articles .article h3 a:hover, .articles .article h3 a:hover
+{
+	color: #999;
+}
+
+#footer
+{
+	padding: 5px;
+	background-color: #234F32;
+}
+
+#footer nav li a
+{
+	padding: 0px 5px;
+	color: #789F87;
+	font-weight: bold;
+}
 
