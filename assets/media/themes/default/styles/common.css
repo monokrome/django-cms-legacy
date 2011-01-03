@@ -32,6 +32,14 @@ nav ul { margin-left: 0px; }
 nav ul li { display: inline-block; }
 
 /**
+ * Generic classes
+ */
+ul.column
+{
+	display: inline-block;
+}
+
+/**
  * 
  */
 #page-wrapper
@@ -126,10 +134,17 @@ a:link, a:active, a:visited, a:hover
 	background-color: #234F32;
 }
 
+ul.column
+{
+	display: inline-block;
+}
+
 #footer nav li a
 {
 	padding: 0px 5px;
 	color: #789F87;
 	font-weight: bold;
 }
+
+#footer_text { font-size: 0.8em; }
 
