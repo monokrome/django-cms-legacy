@@ -49,6 +49,7 @@ a:link, a:active, a:visited, a:hover
 
 #navigation-wrapper
 {
+	padding-top: 15px;
 	margin-right: 20px;
 }
 
