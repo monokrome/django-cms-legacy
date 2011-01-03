@@ -64,6 +64,11 @@ a:link, a:active, a:visited, a:hover
 	font-size: 1.8em;
 }
 
+#primary-navigation nav ul li
+{
+	padding: 0px 10px;
+}
+
 #primary-navigation a
 {
 	font-weight: bold;
@@ -71,7 +76,7 @@ a:link, a:active, a:visited, a:hover
 
 #account-navigation
 {
-	margin-right: 40px;
+	margin-right: 20px;
 }
 
 #site-name
