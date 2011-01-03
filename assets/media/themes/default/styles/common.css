@@ -21,20 +21,10 @@ h6 { font-size: 0.6em; }
 p { padding: 5px; margin-bottom: 10px; }
 ul li { list-style: inside disc; }
 
-ul
-{
-	margin-left: 1em;
-}
+ul { margin-left: 1em; }
 
-nav ul li
-{
-	display: inline-block;
-}
-
-nav ul
-{
-	margin-left: 0px;
-}
+nav ul { margin-left: 0px; }
+nav ul li { display: inline-block; }
 
 /**
  * 
